@@ -1,0 +1,58 @@
+.modelwrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  transition: 0.2s ease-in;
+  z-index: 300;
+}
+.nomodel {
+  display: none;
+}
+.modelimagecontainer {
+  background-color: white;
+  padding: 10px;
+  height: 80%;
+  width: 40%;
+  border-radius: 6px;
+  animation: zooming 0.5s;
+}
+
+@keyframes zooming {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  100% {
+    height: 80%;
+    width: 40%;
+  }
+}
+.modelimage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 600px) {
+  .modelimagecontainer {
+    height: 50%;
+    width: 80%;
+    animation: zooming 0.5s;
+  }
+  @keyframes zooming {
+    0% {
+      height: 0;
+      width: 0;
+    }
+    100% {
+      height: 50%;
+      width: 80%;
+    }
+  }
+}

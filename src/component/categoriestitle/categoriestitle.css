@@ -1,0 +1,23 @@
+.ctetitlewrapper {
+  background-color: var(--black);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  color: white;
+  font-size: 80%;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  text-align: center;
+}
+.noactive {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.3s ease-in;
+  border-radius: 30px;
+  border: 1px solid rgba(218, 216, 216, 0.806);
+  font-size: 80%;
+  cursor: pointer;
+  text-align: center;
+}

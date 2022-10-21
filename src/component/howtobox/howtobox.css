@@ -1,0 +1,50 @@
+.howtoboxcontainer {
+  height: 70%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: var(--black);
+}
+.howtoimagecontainer {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+.howtoimage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.howtoinnertitlecontainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+.howtoheading {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-top: 20px;
+}
+.howtosubheading {
+  font-size: 80%;
+  font-weight: 300;
+}
+@media screen and (max-width: 1000px) {
+  .howtoboxcontainer {
+    width: 40%;
+    margin: 20px;
+  }
+  .howtoheading {
+    font-size: 1.3rem;
+  }
+}

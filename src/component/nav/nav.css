@@ -1,0 +1,35 @@
+.logocontainer {
+  display: flex;
+  height: 10vh;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: white;
+  /* filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.056)); */
+}
+.logo {
+  width: 180px;
+  height: 80px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.balance {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+@media screen and (max-width: 1000px) {
+  .logo {
+    width: 130px;
+  }
+}

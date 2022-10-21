@@ -1,0 +1,15 @@
+{
+  "short_name": "msgiftzone",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "finallogo.png",
+      "sizes": "250x250 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

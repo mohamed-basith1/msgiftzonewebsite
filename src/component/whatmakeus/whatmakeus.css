@@ -1,0 +1,175 @@
+.whatmakeuscontainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding-top: 5rem;
+}
+.whatmakeleftside {
+  flex: 3;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.whatmakerightside {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whatmakeusrightsideimagecontainer {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+  box-shadow: 0px 0px 97px -60px rgba(179, 246, 162, 0.85);
+  border-radius: 3px;
+  border-top-left-radius: 180px;
+  object-fit: cover;
+  height: 700px;
+}
+.sideimage {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  border-top-left-radius: 180px;
+  object-fit: cover;
+  transition: 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whatmaketitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.whatmakesubtitle {
+  font-size: var(--subtitle);
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.fourimage {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fourimagefirstcontainer {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  padding-top: 2rem;
+}
+.fourimagesecondcontainer {
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.fourimagebox {
+  width: 200px;
+  height: 290px;
+  border-radius: 3px;
+}
+.fourimagebox2 {
+  width: 200px;
+  height: 290px;
+  border-radius: 3px;
+}
+.fourimagebox:nth-child(1) {
+  background-color: var(--greengray);
+  border-top-left-radius: 20px;
+
+  box-shadow: 0px 0px 80px -30px var(--greengray);
+}
+.fourimagebox:nth-child(2) {
+  background-color: var(--secgreengray);
+  border-bottom-left-radius: 20px;
+  box-shadow: 0px 0px 80px -30px var(--secgreengray);
+}
+.fourimagebox2:nth-child(1) {
+  background-color: var(--lightsandle);
+  border-top-right-radius: 20px;
+  box-shadow: 0px 0px 80px -30px var(--lightsandle);
+}
+.fourimagebox2:nth-child(2) {
+  background-color: var(--lightsandle);
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 0px 80px -30px var(--lightsandle);
+}
+.fourcirclecontainer {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourimagetitlecontainer {
+  text-align: center;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.foutitle {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.foursubtitle {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.fourcircleimageconatiner {
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 0.9rem 0.6rem rgba(139, 139, 138, 0.713));
+}
+
+@media screen and (max-width: 1000px) {
+  .whatmakeuscontainer {
+    flex-direction: column;
+  }
+  .fourimagebox {
+    width: 150px;
+    height: 220px;
+  }
+  .fourimagebox2 {
+    width: 150px;
+    height: 220px;
+  }
+  .foutitle {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .foursubtitle {
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .fourimagebox {
+    width: 130px;
+    height: 200px;
+  }
+  .fourimagebox2 {
+    width: 130px;
+    height: 200px;
+  }
+}

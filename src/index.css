@@ -1,0 +1,23 @@
+:root {
+  --gray: #eef1f6;
+  /* --black: #160d49; */
+  --black: rgb(1, 51, 57);
+  --red: #fa2a46;
+  --lightred: #f06267;
+  --greengray: #cdd7d8;
+  --secgreengray: rgb(209, 223, 221);
+  --lightsandle: #e3e0db;
+  --seclightsandle: #f2ebe6;
+  --check: #0000;
+  --subtitle: 1rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+}
